@@ -1,0 +1,33 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+li.hecha {
+  text-decoration: line-through;
+  color: #888;
+}

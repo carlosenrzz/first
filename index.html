@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mis tareas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Lista de tareas</h1>
+
+  <!-- Formulario para crear una tarea nueva -->
+  <form id="form-tarea">
+    <input type="text" id="input-texto" placeholder="Nueva tarea..." required>
+    <button type="submit">Agregar</button>
+  </form>
+
+  <!-- Acá el JS va a insertar dinámicamente las tareas que traiga de la API -->
+  <ul id="lista-tareas"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
