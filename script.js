@@ -1,6 +1,6 @@
-// URL de la API. Como el backend corre en el puerto 5000 y este HTML
-// se abre por separado, son "orígenes distintos" -> por eso hace falta CORS.
-const API_URL = "http://localhost:5000/api/tareas";
+// URL de la API ya desplegada en Render. Reemplazá esto por TU URL real
+// (la que Render te dio al terminar el despliegue).
+const API_URL = "https://lista-tareas-api.onrender.com/api/tareas";
 
 const lista = document.getElementById("lista-tareas");
 const form = document.getElementById("form-tarea");
